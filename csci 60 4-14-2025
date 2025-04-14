@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	cout<< "Hello, World" <<endl;
+	return 0;
+}
+
+// || = or
+// && = and 
+// && first then || is second
+// console input is cin >> >> ;
+// cout <<
+// cin >>
+// n++ is add 1 to the value, its called post-increment 
+// cout << n++; print 5
+// then n is now 6 
+// ++n is add 1 before, its called pre-increment
+// cout << ++n; where n is 3 then it prints out 4  
+// cd (go into a directory)
+// rmdir (remove a directory)
+// mkdir (too check if u have a directiry)
+// cat >> file (too add a new files and to input stuff inside of it, then control d to stop)
+// for loops you need three conditions (a variabe initialization, bool condition 
+// or stoping condition, then update the index )
+// while loops, you have the bool expression
+// ternary operator ? : it needs three condition
+//  condition ? expression1 : expression2;
+// if its true then expression 1 is executed then if not the second one will be
+// built in functions, sqrt(), abs(), pow(1,2), ceil(), floor(), exit()
+// (return type like variable(int, double, bool, string) and void to not return anything)
+// then name your function then you have parameters, you have to specfity the type
+// then if its not foid then you have to have a return statement
+// calling the functions is the functionname and its parameters 
+// if youy delcare a function after the main fucntion u need to too delcare it at the beginning
+// to delcare all u need is type name parameters then ; int large(int a);
+// pre conditions and post condition if u just delcare it
+//
+// call by value parameters (type variable )
+// call by ref funct(type& variable) it changes the variable
+// to make a class you have to use struct name{ type name; etc}
+// to make a struct you need struct then a name{ type name; };
+// then class name with names like student s1, s2;
+// s1.name = "john"
+// s1.gpa = 3.8
+
