@@ -1,0 +1,24 @@
+// may 9 2025
+class::operator =( const class& rhs){
+size_ = rhs.size_ // copy the size of the array
+delete [] data_ // delete the heap memory
+
+
+
+
+destructor is 
+class::~class(){
+delete [] data_ // release heap memeory
+data_ =nullptr; // make it a empty array
+size_ = 0; // change the array size to 0
+}
+
+when you call this = for a chain you will have a this ptr that is automacally made so you can return *this
+
+GArray& GArray::operator:: =
+
+
+
+// template prefiix (need to be included in both delcaration and incartion)
+template <typename T>
+void swapValue(T& car1, T&var2)'
